@@ -1,0 +1,23 @@
+{
+  "name": "@zeroopensource/zero-id",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/zero-id.cjs",
+  "module": "./dist/zero-id.js",
+  "types": "./dist/zero-id.d.ts",
+  "bin": {
+    "zero-id": "./bin/cli-proxy.cjs"
+  },
+  "scripts": {
+    "lint": "cross-env TIMING=1 eslint \"**/*.ts*\"",
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@zero-company/zero-bundler": "^1.0.1",
+    "@zero-company/zero-tsconfig": "^1.0.1",
+    "commander": "^10.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
