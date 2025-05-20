@@ -12,8 +12,11 @@
     "release": "pnpm run build && changeset publish"
   },
   "devDependencies": {
+    "tsup": "8.5.0",
+    "typescript": "5.8.3",
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "2.29.3",
+    "@types/node": "22.15.20",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "turbo": "^2.5.2"
