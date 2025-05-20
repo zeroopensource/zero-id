@@ -9,6 +9,7 @@
     "zero-id": "./bin/cli-proxy.cjs"
   },
   "scripts": {
+    "prepack": "cpx ../../README.md ./",
     "lint": "cross-env TIMING=1 eslint \"**/*.ts*\"",
     "build": "tsup"
   },
