@@ -14,8 +14,6 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@zero-company/zero-bundler": "^1.0.1",
-    "@zero-company/zero-tsconfig": "^1.0.1",
     "commander": "^10.0.0"
   },
   "publishConfig": {
