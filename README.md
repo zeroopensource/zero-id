@@ -51,6 +51,10 @@ npx zero-id generateZeroId --prefix uid1 --hexNum 4 --hexLength 6
 
 # Show help
 npx zero-id --help
+
+# local
+pnpm zero-id generateZeroId
+
 ```
 
 ### Options
