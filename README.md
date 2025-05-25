@@ -53,7 +53,7 @@ npx zero-id generateZeroId --prefix uid1 --hexNum 4 --hexLength 6
 npx zero-id --help
 
 # local
-pnpm zero-id generateZeroId
+pnpm zero generateZeroId
 
 ```
 
