@@ -1,6 +1,7 @@
 {
   "name": "zero-id",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -23,7 +24,8 @@
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "turbo": "^2.5.2",
-    "@zeroopensource/zero-id": "workspace:^"
+    "@zeroopensource/zero-id": "workspace:^",
+    "@zeroopensource/zero-cli": "latest"
   },
   "packageManager": "pnpm@10.11.0",
   "engines": {
