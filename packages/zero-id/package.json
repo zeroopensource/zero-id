@@ -9,6 +9,9 @@
   "bin": {
     "zero": "./bin/cli-proxy.mjs"
   },
+  "exports": {
+    "./cli": "./dist/cli.js"
+  },
   "publishConfig": {
     "access": "public"
   },
