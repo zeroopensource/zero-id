@@ -8,16 +8,33 @@ importers:
 
   .:
     dependencies:
+      '@zeroopensource/zero-cli':
+        specifier: latest
+        version: 0.0.1
       commander:
-        specifier: ^10.0.0
-        version: 10.0.1
+        specifier: ^14.0.0
+        version: 14.0.0
 
 packages:
+
+  '@zeroopensource/zero-cli@0.0.1':
+    resolution: {integrity: sha512-OXQ6PyHHzRWgUqAhBlc0KY+lDOhUHbddcfyPJioIYZ83KdPloc0nnYFaIQByVignU4pDfiYh/a+hweOPreeu/A==}
+    hasBin: true
 
   commander@10.0.1:
     resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
     engines: {node: '>=14'}
 
+  commander@14.0.0:
+    resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
+    engines: {node: '>=20'}
+
 snapshots:
 
+  '@zeroopensource/zero-cli@0.0.1':
+    dependencies:
+      commander: 10.0.1
+
   commander@10.0.1: {}
+
+  commander@14.0.0: {}

@@ -1,12 +1,17 @@
 {
   "name": "@zeroopensource/zero-id",
   "version": "0.0.2",
+  "description": "Utility for generating random hexadecimal IDs",
   "type": "module",
   "main": "./dist/zero-id.cjs",
   "module": "./dist/zero-id.js",
   "types": "./dist/zero-id.d.ts",
   "bin": {
-    "zero-id": "./bin/cli-proxy.cjs"
+    "zero": "./bin/cli-proxy.mjs",
+    "zero-id": "./bin/zero-cli-proxy.cjs"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "prepack": "cpx ../../README.md ./",
@@ -14,9 +19,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "commander": "^10.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
+    "commander": "^14.0.0",
+    "@zeroopensource/zero-cli": "latest"
   }
 }
