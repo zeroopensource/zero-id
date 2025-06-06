@@ -1,6 +1,6 @@
 {
   "name": "@zeroopensource/zero-id",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility for generating random hexadecimal IDs",
   "type": "module",
   "main": "./dist/zero-id.cjs",

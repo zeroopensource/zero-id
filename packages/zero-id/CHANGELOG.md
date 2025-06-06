@@ -1,5 +1,11 @@
 # @zeroopensource/zero-id
 
+## 0.0.3
+
+### Patch Changes
+
+- [#6](https://github.com/zeroopensource/zero-id/pull/6) [`d5d4cab`](https://github.com/zeroopensource/zero-id/commit/d5d4cab13bba4b47515064dca9ad802a19ccb7f9) Thanks [@jigz](https://github.com/jigz)! - Added @zeroopensource/zero-id package with CLI integration
+
 ## 0.0.2
 
 ### Patch Changes
