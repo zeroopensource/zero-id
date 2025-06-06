@@ -39,4 +39,10 @@ program
     console.log(generateZeroId(options))
   })
 
+const noSubCommand = process.argv.length <= 2
+if (noSubCommand) {
+  program.outputHelp()
+  process.exit(0)
+}
+
 program.parse(process.argv)

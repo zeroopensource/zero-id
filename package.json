@@ -27,7 +27,7 @@
     "@zeroopensource/zero-id": "workspace:^",
     "@zeroopensource/zero-cli": "latest"
   },
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.11.1",
   "engines": {
     "node": ">=18"
   }
