@@ -19,7 +19,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "commander": "^14.0.0",
+    "commander": "^14.0.3",
     "@zeroopensource/zero-cli": "latest"
   }
 }
