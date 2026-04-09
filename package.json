@@ -1,10 +1,12 @@
 {
-  "name": "zero-id",
+  "name": "zero-id-mono",
   "private": true,
   "type": "module",
   "scripts": {
+    "check": "ultracite check",
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "start": "turbo run start",
     "lint": "turbo run lint",
     "check-types": "turbo run check-types",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -12,7 +14,9 @@
     "version": "changeset version",
     "release": "pnpm run build && changeset publish",
     "prepack": "turbo run prepack",
-    "zero-id": "zero-id"
+    "zero-id": "zero-id",
+    "build:force": "turbo build --force",
+    "fix": "ultracite fix"
   },
   "devDependencies": {
     "cpx": "1.5.0",
@@ -25,7 +29,9 @@
     "prettier-plugin-tailwindcss": "^0.7.2",
     "turbo": "^2.9.5",
     "@zeroopensource/zero-id": "workspace:^",
-    "@zeroopensource/zero-cli": "latest"
+    "@zeroopensource/zero-cli": "latest",
+    "@biomejs/biome": "2.4.10",
+    "ultracite": "7.4.4"
   },
   "packageManager": "pnpm@10.33.0",
   "engines": {
