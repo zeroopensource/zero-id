@@ -14,6 +14,12 @@ importers:
       commander:
         specifier: ^14.0.3
         version: 14.0.3
+      date-fns:
+        specifier: ^4.1.0
+        version: 4.1.0
+      nanoid:
+        specifier: 5.1.7
+        version: 5.1.7
 
 packages:
 
@@ -29,6 +35,14 @@ packages:
     resolution: {integrity: sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==}
     engines: {node: '>=20'}
 
+  date-fns@4.1.0:
+    resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
+
+  nanoid@5.1.7:
+    resolution: {integrity: sha512-ua3NDgISf6jdwezAheMOk4mbE1LXjm1DfMUDMuJf4AqxLFK3ccGpgWizwa5YV7Yz9EpXwEaWoRXSb/BnV0t5dQ==}
+    engines: {node: ^18 || >=20}
+    hasBin: true
+
 snapshots:
 
   '@zeroopensource/zero-cli@0.0.1':
@@ -38,3 +52,7 @@ snapshots:
   commander@10.0.1: {}
 
   commander@14.0.3: {}
+
+  date-fns@4.1.0: {}
+
+  nanoid@5.1.7: {}
