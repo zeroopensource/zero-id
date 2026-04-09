@@ -16,9 +16,11 @@
   "scripts": {
     "prepack": "cpx ../../README.md ./",
     "lint": "cross-env TIMING=1 eslint \"**/*.ts*\"",
-    "build": "tsup"
+    "build": "tsup",
+    "generate": "tsx src/generate-zero-id.ts"
   },
   "dependencies": {
+    "tsx": "^4.21.0",
     "date-fns": "^4.1.0",
     "nanoid": "5.1.7",
     "commander": "^14.0.3",
