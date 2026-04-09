@@ -8,11 +8,11 @@ const DEFAULT_PREFIXES = ["zero", format(new Date(), "yyyyMMdd")];
 const DEFAULT_ALPHABET = "1234567890abcdef";
 
 interface GenerateZeroIdParams {
-  prefixes?: string[] | null | undefined;
   /** x-x-x-x-x-x */
   partsCount?: number | null | undefined;
   /** xxxxxxx */
   partsLength?: number | null | undefined;
+  prefixes?: string[] | null | undefined;
   separator?: string | null | undefined;
 }
 
