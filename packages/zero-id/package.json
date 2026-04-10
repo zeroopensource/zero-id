@@ -6,10 +6,6 @@
   "main": "./dist/zero-id.cjs",
   "module": "./dist/zero-id.js",
   "types": "./dist/zero-id.d.ts",
-  "bin": {
-    "zero": "./bin/cli-proxy.mjs",
-    "zero-id": "./bin/zero-cli-proxy.cjs"
-  },
   "publishConfig": {
     "access": "public"
   },
