@@ -47,4 +47,4 @@ jobs:
           title: '[ci] Release packages'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.ZEROOPENSOURCE_GITHUB_AUTOMATION_NPM_TOKEN_V1 }}
+        #  NPM_TOKEN: ${{ secrets.ZEROOPENSOURCE_GITHUB_AUTOMATION_NPM_TOKEN_V1 }}
