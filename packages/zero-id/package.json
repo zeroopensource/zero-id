@@ -6,20 +6,20 @@
   "main": "./dist/zero-id.cjs",
   "module": "./dist/zero-id.js",
   "types": "./dist/zero-id.d.ts",
-  "bin": {
-    "zero": "./bin/cli-proxy.mjs",
-    "zero-id": "./bin/zero-cli-proxy.cjs"
-  },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "prepack": "cpx ../../README.md ./",
     "lint": "cross-env TIMING=1 eslint \"**/*.ts*\"",
-    "build": "tsup"
+    "build": "tsup",
+    "generate": "tsx src/generate-zero-id.ts"
   },
   "dependencies": {
-    "commander": "^14.0.0",
+    "tsx": "^4.21.0",
+    "date-fns": "^4.1.0",
+    "nanoid": "5.1.7",
+    "commander": "^14.0.3",
     "@zeroopensource/zero-cli": "latest"
   }
 }
