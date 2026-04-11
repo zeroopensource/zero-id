@@ -1,5 +1,11 @@
 # @zeroopensource/zero-id
 
+## 0.0.4
+
+### Patch Changes
+
+- [#8](https://github.com/zeroopensource/zero-id/pull/8) [`83d1d54`](https://github.com/zeroopensource/zero-id/commit/83d1d548e2c2b35000edf645003867c116e0c210) Thanks [@jigz](https://github.com/jigz)! - Updated @zeroopensource/zero-id release workflow
+
 ## 0.0.3
 
 ### Patch Changes
