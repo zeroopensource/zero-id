@@ -22,9 +22,11 @@
   "scripts": {
     "prepack": "cpx ../../README.md ./",
     "lint": "cross-env TIMING=1 eslint \"**/*.ts*\"",
-    "build": "tsup",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
     "generate": "tsx src/generate-zero-id.ts",
-    "test": "vitest"
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "tsx": "^4.21.0",
