@@ -13,8 +13,6 @@
     "url": "https://github.com/zeroopensource/zero-id/issues"
   },
   "type": "module",
-  "main": "./dist/zero-id.cjs",
-  "module": "./dist/zero-id.js",
   "types": "./dist/zero-id.d.ts",
   "publishConfig": {
     "access": "public"
@@ -34,5 +32,10 @@
     "nanoid": "5.1.7",
     "commander": "^14.0.3",
     "@zeroopensource/zero-cli": "latest"
+  },
+  "exports": {
+    "./generate": "./dist/generate.mjs",
+    "./zero-id": "./dist/zero-id.mjs",
+    "./package.json": "./package.json"
   }
 }
