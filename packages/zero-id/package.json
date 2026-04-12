@@ -2,9 +2,17 @@
   "name": "@zeroopensource/zero-id",
   "version": "0.0.4",
   "description": "Utility for generating random hexadecimal IDs",
+  "author": "Jigz <jigzpalillo@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/zeroopensource/zero-id",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeroopensource/zero-id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeroopensource/zero-id/issues"
+  },
   "type": "module",
-  "main": "./dist/zero-id.cjs",
-  "module": "./dist/zero-id.js",
   "types": "./dist/zero-id.d.ts",
   "publishConfig": {
     "access": "public"
@@ -12,8 +20,11 @@
   "scripts": {
     "prepack": "cpx ../../README.md ./",
     "lint": "cross-env TIMING=1 eslint \"**/*.ts*\"",
-    "build": "tsup",
-    "generate": "tsx src/generate-zero-id.ts"
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "generate": "tsx src/generate.ts",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "tsx": "^4.21.0",
@@ -21,5 +32,10 @@
     "nanoid": "5.1.7",
     "commander": "^14.0.3",
     "@zeroopensource/zero-cli": "latest"
+  },
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./generate": "./dist/generate.mjs",
+    "./package.json": "./package.json"
   }
 }
