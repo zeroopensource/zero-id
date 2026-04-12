@@ -1,3 +1,3 @@
-import { generateZeroId } from "./zero-id";
+import { generateZeroId } from "./";
 
 console.log(generateZeroId());

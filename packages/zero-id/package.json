@@ -34,8 +34,8 @@
     "@zeroopensource/zero-cli": "latest"
   },
   "exports": {
+    ".": "./dist/index.mjs",
     "./generate": "./dist/generate.mjs",
-    "./zero-id": "./dist/zero-id.mjs",
     "./package.json": "./package.json"
   }
 }
