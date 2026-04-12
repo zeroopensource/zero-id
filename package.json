@@ -21,6 +21,7 @@
   "devDependencies": {
     "cpx": "1.5.0",
     "tsdown": "^0.21.7",
+    "@typescript/native-preview": "7.0.0-dev.20260328.1",
     "typescript": "6.0.2",
     "@changesets/changelog-github": "^0.6.0",
     "@changesets/cli": "2.30.0",
