@@ -24,7 +24,7 @@
     "lint": "cross-env TIMING=1 eslint \"**/*.ts*\"",
     "build": "tsdown",
     "dev": "tsdown --watch",
-    "generate": "tsx src/generate-zero-id.ts",
+    "generate": "tsx src/generate.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
