@@ -18,7 +18,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepack": "cpx ../../README.md ./",
+    "prepack": "node -e \"require('fs').copyFileSync('../../README.md', 'README.md')\"",
     "lint": "cross-env TIMING=1 eslint \"**/*.ts*\"",
     "build": "tsdown",
     "dev": "tsdown --watch",
