@@ -13,7 +13,7 @@
     "url": "https://github.com/zeroopensource/zero-id/issues"
   },
   "type": "module",
-  "types": "./dist/zero-id.d.ts",
+  "types": "./dist/index.d.cts",
   "publishConfig": {
     "access": "public"
   },
@@ -34,8 +34,16 @@
     "@zeroopensource/zero-cli": "latest"
   },
   "exports": {
-    ".": "./dist/index.mjs",
-    "./generate": "./dist/generate.mjs",
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./generate": {
+      "import": "./dist/generate.mjs",
+      "require": "./dist/generate.cjs"
+    },
     "./package.json": "./package.json"
-  }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs"
 }

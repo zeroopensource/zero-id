@@ -6,4 +6,12 @@ export default defineConfig({
     tsgo: true,
   },
   exports: true,
+  format: {
+    esm: {
+      target: ["es2015"],
+    },
+    cjs: {
+      target: ["node20"],
+    },
+  },
 });
