@@ -1,5 +1,11 @@
 # @zeroopensource/zero-id
 
+## 0.0.5
+
+### Patch Changes
+
+- [#15](https://github.com/zeroopensource/zero-id/pull/15) [`e27fedc`](https://github.com/zeroopensource/zero-id/commit/e27fedcccfac884d95a8a970744209e89a9d0fa2) Thanks [@jigz](https://github.com/jigz)! - feat(zero-id): addJS builds, and correct types fieldUpdate package.json to expose both ESM and CommonJS entrypointsand set main/module for compatibility different consumers. Fix thetypes path to point at the generated declaration file (index.d.cts).
+
 ## 0.0.4
 
 ### Patch Changes
