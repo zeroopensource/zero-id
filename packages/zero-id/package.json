@@ -1,6 +1,6 @@
 {
   "name": "@zeroopensource/zero-id",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Utility for generating random hexadecimal IDs",
   "author": "Jigz <jigzpalillo@gmail.com>",
   "license": "MIT",
