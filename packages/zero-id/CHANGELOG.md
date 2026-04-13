@@ -1,5 +1,11 @@
 # @zeroopensource/zero-id
 
+## 0.0.6
+
+### Patch Changes
+
+- [#17](https://github.com/zeroopensource/zero-id/pull/17) [`41cb8aa`](https://github.com/zeroopensource/zero-id/commit/41cb8aaf06cf65efb949952ac4ef6af60c588919) Thanks [@jigz](https://github.com/jigz)! - chore(deps): remove unused dev deps and lockfileRemove the unused devDependencies "cpx" and "@zeroopensource/zero-id" frompackage.json and pnpm-lock.yaml to their andtransitive packages that are no required.
+
 ## 0.0.5
 
 ### Patch Changes
